@@ -2,7 +2,7 @@
 
 showname(){
 	echo Hello $1
-	if [ ${1,,} = Nachiket ]; then
+	if [ ${1,,} = Vyom ]; then
 		return 0
 	else 
 		return 1
